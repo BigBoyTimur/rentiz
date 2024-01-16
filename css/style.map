@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/style.sass"
+	],
+	"sourcesContent": [
+		"@import url(\"https//fonts.googleapis.com/css?family=Work+Sans:regular,500,600&display=swap\");\n\n* {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box; }\n\n :root {\n  --bg-color: #121B25;\n  --accent-color: #15786C;\n  --text-color: #d6d6d6; }\n\nbody {\n    background-color: var(--bg-color); }\n[class*=__container] {\n    max-width: 1450px;\n    padding: 0 15px;\n    margin: 0 auto; }\n\n/* Header */\n\n.header {\n    padding: 40px auto;\n    // .header__container\n    &__container {\n        display: flex;\n        justify-content: space-between;\n        align-items: center; } }\n\n// .header\n//     padding: 40px auto\n// \t&__container\n//         display: flex\n//         justify-content: space-between\n//         align-items: center\n// \t// .header__logo\n// \t&__logo\n// \t// .header__navigation\n// \t&__navigation\n//         display: flex\n//         align-items: center\n//         gap: 75px\n// \t// .header__menu\n// \t&__menu\n\n// \t// .header__buttonns\n// \t&__buttonns\n\n// \t// .header__btn\n// \t&__btn\n\n.menu {}\n// .menu__body\n//  &__body\n//      display: flex\n//      align-items: center\n//      gap: 40px\n//      list-style: none\n/// .menu__item\n//__item\n/// .menu__link\n//__link\n\n\n.register {}\n\n.login {}\n\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,OAAO,CAAC,oFAAI;;AAEZ,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CAAG;;;AAE5B,AAAA,KAAK,CAAC;EACL,UAAU,CAAA,QAAC;EACX,cAAc,CAAA,QAAC;EACf,YAAY,CAAA,QAAC;CAAW;;;AAE1B,AAAA,IAAI,CAAC;EACD,gBAAgB,EAAE,eAAe;CAAG;;;CACxC,AAAA,AAAA,KAAC,EAAD,WAAC,AAAA,EAAoB;EACjB,SAAS,EAAE,MAAM;EACjB,OAAO,EAAE,MAAM;EACf,MAAM,EAAE,MAAM;CAAG;;AAErB,YAAY;;AAEZ,AAAA,OAAO,CAAC;EACJ,OAAO,EAAE,SAAS;CAKU;;;AAH3B,AAAD,kBAAY,CAAC;EACT,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,WAAW,EAAE,MAAM;CAAG"
+}
