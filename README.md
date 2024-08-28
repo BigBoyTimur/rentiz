@@ -1,5 +1,5 @@
 # rentiz
-Респонисвная верстка лендинга с слайдером.
+Адаптивная верстка лендинга с слайдером.
 
 ## Live demo
 https://bigboytimur.github.io/rentiz/
